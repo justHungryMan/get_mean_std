@@ -1,5 +1,6 @@
 import torch
 import torchvision
+from torch.utils.data import Dataset
 
 class MyDataset(Dataset):
     def __init__(self):
